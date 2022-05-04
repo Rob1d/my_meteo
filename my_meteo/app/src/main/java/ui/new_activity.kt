@@ -20,9 +20,9 @@ class NewActivity : AppCompatActivity() {
         setContentView(R.layout.new_activity)
         val Townname = this.intent.getStringExtra("Town")
         val Tview: TextView = this.findViewById(R.id.town_name)
-        Tview.text = Townname
         val url = "https://api.openweathermap.org/data/2.5/weather?q=" + Townname +
                 ",fr&APPID=8aa161a17d513c5b9d4b033e8e79240e&mode=json&units=metric&lang=fr"
+        Tview.text = Townname
         coroutine(url)
     }
 
