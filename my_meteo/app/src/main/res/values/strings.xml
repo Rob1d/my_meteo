@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">my_meteo</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="actual">Température</string>
+    <string name="ressen">Ressenti</string>
+    <string name="weather">Temps :</string>
+    <string name="press">Pression de l\'air :</string>
+    <string name="t_max">Temperature max</string>
+    <string name="t_min">Temperature mini</string>
+    <string name="humid">Humiditée</string>
+    <string name="not_init">Impossible de récupérer l\'information</string>
+</resources>
